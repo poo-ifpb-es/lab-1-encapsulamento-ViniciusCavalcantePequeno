@@ -23,8 +23,8 @@ class RelogioDigital {
     }
 
     public void tick(){
-        if (minuto == 59){
-            if (hora == 23){
+        if (minuto == 60){
+            if (hora == 24){
                 hora = 0;
                 minuto = 0;}
             else{
