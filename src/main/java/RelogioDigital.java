@@ -23,16 +23,16 @@ class RelogioDigital {
     }
 
     public void tick(){
-        if (minuto == 60){
-            if (hora == 24){
-                hora = 0;
-                minuto = 0;}
+        if (this.minuto == 60){
+            if (this.hora == 24){
+                this.hora = 0;
+                this.minuto = 0;}
             else{
-                hora = hora + 1;
-                minuto = 0;
-            }}
+                this.hora = hora + 1;
+                this.minuto = 0;
+            }
         else{
-            minuto = minuto + 1;
+            this.minuto = this.minuto + 1;
         }
     }
 }
